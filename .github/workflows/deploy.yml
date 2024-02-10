@@ -38,7 +38,6 @@ jobs:
               uses: peaceiris/actions-gh-pages@v3
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
-                  external_repository: theoparis/vendetta-plugins
                   publish_dir: ./dist
                   # Makes it so the md files in the previous step get processed by GitHub Pages
                   enable_jekyll: true
