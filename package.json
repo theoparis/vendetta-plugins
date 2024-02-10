@@ -1,0 +1,26 @@
+{
+	"private": true,
+	"scripts": {
+		"build": "node build.mjs"
+	},
+	"dependencies": {
+		"@swc/helpers": "^0.5.6"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^25.0.7",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"@swc/core": "^1.4.0",
+		"esbuild": "^0.20.0",
+		"rollup": "^4.10.0",
+		"rollup-plugin-esbuild": "^6.1.1",
+		"vendetta-types": "latest"
+	},
+	"pnpm": {
+		"peerDependencyRules": {
+			"ignoreMissing": [
+				"react",
+				"react-native"
+			]
+		}
+	}
+}
